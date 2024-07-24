@@ -8,22 +8,54 @@ const perguntas = [
     {
         enunciado: "Quando voce ve reportagens, notícias sobre como o ecossistema vem sendo degradado, voce pensa em como pode ajudar?",
         alternativas: [
-            "Sim, eu tenho ações para amenizar",
-            "Eu não sei o que poderia fazer"
+            {    
+                texto: "Sim, eu tenho ações para amenizar",
+                afirmação: "afirmação"
+              
+            },
+
+            {
+                texto: "Eu não sei o que poderia fazer",
+                afirmação: "afirmação"
+
+            }
+            
         ]
     },
+  
     {
         enunciado: "Estão aqui duas opções para voce, que tal por enquanto começar com uma dessas?",
         alternativas: [
-            "Economizar energia (quando for utilizar o celular pode desligar a tv, diminuir o tempo do chuveiro, são exemplos)",
-            "Descartar corretamente o lixo (não jogar na rua, terrenos baldios, separar o lixo em casa, também são exemplos)"
+           {
+               texto: "Economizar energia (quando for utilizar o celular pode desligar a tv, diminuir o tempo do chuveiro, são exemplos)",
+               afirmação: "afirmação"
+
+           },
+            
+        {
+              texto: "Descartar corretamente o lixo (não jogar na rua, terrenos baldios, separar o lixo em casa, também são exemplos)",
+              afirmação: "afirmação"
+
+        }
+           
+           
         ]
     },
+  
     {
         enunciado: "São algumas dicas de saúde, que tal escolher uma delas?",
         alternativas: [
-            "Horta caseira. Voce saiba que a horta caseira proporciona uma alimentação mais saudável e funciona como terapia para a mente já que o contato com a terra ajuda no controle do estresse e ansiedade",
-            "Compostagem. A compostagem ajuda na redução de CO2, melhora a qualidade do solo e também ajuda a reduzir a dependencia de fertilizantes químicos. Algumas empresas: Retec Resíduos - Composta Mais - Grupo Carbono"
+         {
+             texto: "Horta caseira. Voce saiba que a horta caseira proporciona uma alimentação mais saudável e funciona como terapia para a mente já que o contato com a terra ajuda no controle do estresse e ansiedade",
+             afirmação: "afirmação"
+
+         }
+           
+         {
+            texto: "Compostagem. A compostagem ajuda na redução de CO2, melhora a qualidade do solo e também ajuda a reduzir a dependencia de fertilizantes químicos. Algumas empresas: Retec Resíduos - Composta Mais - Grupo Carbono"
+            afirmação: "afirmação"
+
+         }
         ]
     },
     {
