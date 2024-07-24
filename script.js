@@ -36,26 +36,37 @@ const perguntas = [
     {
         enunciado: " Agora mais duas dicas. escolha!",
         alternativas: [
-            "Evitaar levar para casa embalagens plásticas e de papel que não serão novamente utilizadas. Escolha produtos que tenham a opção de refil, isso será de grande benefício.",
+            "Evitar levar para casa embalagens plásticas e de papel que não serão novamente utilizadas. Escolha produtos que tenham a opção de refil, isso será de grande benefício.",
             "Usar ecobags quando for às compras ou reutilize os sacos plásticos;."
         ]
     },
 ];
 
+
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
 }
-function mostraAlternativas() {
+
+function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa;
+        botaoAlternativas.textContent = alternativa.texto;
+        botaoAlternativas.addEventListener("click", funcion () => respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
+}
+
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacoes;
+    historiaFinal = afirmacoes;
+    atual++;
+    mostraPergunta();
 }
 
 mostraPergunta();
