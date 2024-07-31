@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim, eu tenho ações para amenizar",
-                afirmacao: "afirmação"
+                afirmacao: "Otimo segue abaixo algumas ações"
             },
             {
                 texto: "Eu não sei o que poderia fazer",
-                afirmacao: "afirmação"
+                afirmacao: "Retome algumas dicas de ações dentro do nosso site"
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Economizar energia (quando for utilizar o celular pode desligar a tv, diminuir o tempo do chuveiro, são exemplos)",
-                afirmacao: "afirmação"
+                afirmacao: "Essa é uma simples ação, porém benéfica para o seu bolso"
             },
             {
                 texto: "Descartar corretamente o lixo (não jogar na rua, terrenos baldios, separar o lixo em casa, também são exemplos)",
-                afirmacao: "afirmação"
+                afirmacao: "Ação crucial para o meio ambiente"
             }
         ]
     },
@@ -36,25 +36,41 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Horta caseira. Voce saiba que a horta caseira proporciona uma alimentação mais saudável e funciona como terapia para a mente já que o contato com a terra ajuda no controle do estresse e ansiedade.",
-                afirmacao: "afirmação"
+                afirmacao: "Livre de agrotóxicos"
             },
             {
                 texto: "Compostagem. A compostagem ajuda na redução de CO2, melhora a qualidade do solo e também ajuda a reduzir a dependencia de fertilizantes químicos. Algumas empresas: Retec Resíduos - Composta Mais - Grupo Carbono".",
-                afirmacao: "afirmação"
+                afirmacao: "Auxilia na diminuição de lixos orgânicas"
             }
         ]
     },
     {
-        enunciado: "Estão aqui alumas dicas para casa, escolha uma!",
+        enunciado: "Estão aqui algumas dicas para casa, escolha uma!",
         alternativas: [
-            "Uma boa dica e de não jogar óleos lubrificantes ou de cozinha na sua rede de esgoto.",
-            "Outra dica é de tampar bem as panelas na hora de cozinhar, (o alimento fica pronto mais depressa e você gasta menos gás)"
-        ]
+           {
+                texto:  "Uma boa dica e de não jogar óleos lubrificantes ou de cozinha na sua rede de esgoto.",
+                afirmação: ""
+           },
+           {
+                texto:  "Outra dica é de tampar bem as panelas na hora de cozinhar, (o alimento fica pronto mais depressa e você gasta menos gás)",
+                afirmação: ""
+           }
+      
+            ]
     },
     {
         enunciado: " Agora mais duas dicas. escolha!",
         alternativas: [
-            "Evitar levar para casa embalagens plásticas e de papel que não serão novamente utilizadas. Escolha produtos que tenham a opção de refil, isso será de grande benefício.",
+            {
+                texto: "Descartar corretamente o lixo (não jogar na rua, terrenos baldios, separar o lixo em casa, também são exemplos)",
+                afirmacao: "Ação crucial para o meio ambiente"
+            }
+            "{
+                texto: "Economizar energia (quando for utilizar o celular pode desligar a tv, diminuir o tempo do chuveiro, são exemplos)",
+                afirmacao: "Essa é uma simples ação, porém benéfica para o seu bolso"
+            },
+           
+            }",
             "Usar ecobags quando for às compras ou reutilize os sacos plásticos;."
         ]
     },
