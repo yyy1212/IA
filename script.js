@@ -39,8 +39,8 @@ const perguntas = [
                 afirmacao: "Livre de agrotóxicos"
             },
             {
-                texto: "Compostagem. A compostagem ajuda na redução de CO2, melhora a qualidade do solo e também ajuda a reduzir a dependencia de fertilizantes químicos. Algumas empresas: Retec Resíduos - Composta Mais - Grupo Carbono".",
-                afirmacao: "Auxilia na diminuição de lixos orgânicas"
+                texto: "Compostagem. A compostagem ajuda na redução de CO2, melhora a qualidade do solo e também ajuda a reduzir a dependencia de fertilizantes químicos. Algumas empresas: Retec Resíduos - Composta Mais - Grupo Carbono.",
+                afirmacao: "Auxilia na diminuição de lixos orgânicas."
             }
         ]
     },
@@ -64,14 +64,13 @@ const perguntas = [
             {
                 texto: "Descartar corretamente o lixo (não jogar na rua, terrenos baldios, separar o lixo em casa, também são exemplos)",
                 afirmacao: "Ação crucial para o meio ambiente"
-            }
-            "{
+            },
+            {
                 texto: "Economizar energia (quando for utilizar o celular pode desligar a tv, diminuir o tempo do chuveiro, são exemplos)",
                 afirmacao: "Essa é uma simples ação, porém benéfica para o seu bolso"
-            },
            
-            }",
-            "Usar ecobags quando for às compras ou reutilize os sacos plásticos;."
+            }
+            
         ]
     },
 ];
