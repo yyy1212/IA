@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
            {
                 texto:  "Uma boa dica e de não jogar óleos lubrificantes ou de cozinha na sua rede de esgoto.",
-                afirmação: "Atitude crucial para o bem estar ambiental"
+                afirmacao: "Atitude crucial para o bem estar ambiental"
            },
            {
                 texto:  "Outra dica é de tampar bem as panelas na hora de cozinhar",
-                afirmação: "O alimento fica pronto mais depressa e você gasta menos gás"
+                afirmacao: "O alimento fica pronto mais depressa e você gasta menos gás"
            }
       
             ]
