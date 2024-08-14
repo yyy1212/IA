@@ -40,7 +40,7 @@ const perguntas = [
             },
             {
                 texto: "Compostagem. A compostagem ajuda na redução de CO2, melhora a qualidade do solo e também ajuda a reduzir a dependencia de fertilizantes químicos. Algumas empresas: Retec Resíduos - Composta Mais - Grupo Carbono.",
-                afirmacao: "Ajuda na diminuição de lixos orgânicas."
+                afirmacao: "Ajuda na diminuição de lixos orgânicos"
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
            {
                 texto:  "Uma boa dica e de não jogar óleos lubrificantes ou de cozinha na sua rede de esgoto.",
-                afirmação: ""
+                afirmação: "Atitude crucial para o bem estar ambiental"
            },
            {
-                texto:  "Outra dica é de tampar bem as panelas na hora de cozinhar, (o alimento fica pronto mais depressa e você gasta menos gás)",
-                afirmação: ""
+                texto:  "Outra dica é de tampar bem as panelas na hora de cozinhar",
+                afirmação: "O alimento fica pronto mais depressa e você gasta menos gás"
            }
       
             ]
