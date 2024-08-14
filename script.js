@@ -27,7 +27,7 @@ const perguntas = [
             },
             {
                 texto: "Descartar corretamente o lixo (não jogar na rua, terrenos baldios, separar o lixo em casa, também são exemplos)",
-                afirmacao: "Ação crucial para o meio ambiente"
+                afirmacao: "Ação crucial em relação ao meio ambiente"
             }
         ]
     },
@@ -40,7 +40,7 @@ const perguntas = [
             },
             {
                 texto: "Compostagem. A compostagem ajuda na redução de CO2, melhora a qualidade do solo e também ajuda a reduzir a dependencia de fertilizantes químicos. Algumas empresas: Retec Resíduos - Composta Mais - Grupo Carbono.",
-                afirmacao: "Auxilia na diminuição de lixos orgânicas."
+                afirmacao: "Ajuda na diminuição de lixos orgânicas."
             }
         ]
     },
