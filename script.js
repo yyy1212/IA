@@ -57,7 +57,7 @@ const perguntas = [
                 texto: "Compostagem. A compostagem ajuda na redução de CO2, melhora a qualidade do solo e também ajuda a reduzir a dependencia de fertilizantes químicos. Algumas empresas: Retec Resíduos - Composta Mais - Grupo Carbono.",
                 afirmacao: [
                     "Ajuda na diminuição de lixos orgânicos",
-                    ""
+                    "Preservar o meio ambiente é preservar a vida",
                 ]
             }
         ]
@@ -75,7 +75,8 @@ const perguntas = [
            {
                 texto:  "Outra dica é de tampar bem as panelas na hora de cozinhar",
                 afirmacao: [
-                    "O alimento fica pronto mais depressa e você gasta menos gás"
+                    "O alimento fica pronto mais depressa e você gasta menos gás",
+                    "Cada gesto de preservação é um passo em direção ao mundo mais verde",
                 ]
            }
       
@@ -87,13 +88,16 @@ const perguntas = [
             {
                 texto: "Descartar corretamente o lixo (não jogar na rua, terrenos baldios, separar o lixo em casa, também são exemplos)",
                 afirmacao: [
-                    "Ação crucial para o meio ambiente"
+                    "Ação crucial para o meio ambiente",
+                    "O equilibrio do planeta depende das nossas ações diarias",
+
                 ]
             },
             {
                 texto: "Economizar energia (quando for utilizar o celular pode desligar a tv, diminuir o tempo do chuveiro, são exemplos)",
                 afirmacao: [
-                    "Essa é uma simples ação, porém benéfica para o seu bolso"
+                    "Essa é uma simples ação, porém benéfica para o seu bolso",
+                    "A natureza é nosso lar; cuidemos dela com carinho e responsabilidade",
                 ]
             }
             
