@@ -5,16 +5,24 @@
             {
                 texto: "Sim, eu tenho ações para amenizar",
                 afirmacao: [
-                    "Otimo segue abaixo algumas ações",
-                    "Economize energia"
-                ]
+                    "Otimo segue abaixo algumas ações", 
+
+                afirmacao: [     "Economize energia"    
+
+                 ],
+proxima: 1, 
+                  ]
+                
+
             },
             {
                 texto: "Eu não sei o que poderia fazer",
                 afirmacao: [
                      "Retome algumas dicas de ações dentro do nosso site",
-                     "Economize papel"
+                afirmacao: [ "Economize papel",
                 ]
+
+                ],
             }
         ]
     },
@@ -25,8 +33,9 @@
                 texto: "Economizar energia (quando for utilizar o celular pode desligar a tv, diminuir o tempo do chuveiro, são exemplos)",
                 afirmacao: [
                     "Essa é uma simples ação, porém benéfica para o seu bolso",
-                    "Tenha um dia vegetariano"
+               afirmacao: [     "Tenha um dia vegetariano",
                 ]
+            ],
             },
             {
                 texto: "Descartar corretamente o lixo (não jogar na rua, terrenos baldios, separar o lixo em casa, também são exemplos)",
