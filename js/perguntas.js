@@ -21,10 +21,10 @@ proxima: 1,
                      "Retome algumas dicas de ações dentro do nosso site",
                 afirmacao: [ "Economize papel",
                 ]
-
+proxima: 2,
                 ],
-            }
-        ]
+                
+            ]
     },
     {
         enunciado: "Estão aqui duas opções para voce, que tal por enquanto começar com uma dessas?",
