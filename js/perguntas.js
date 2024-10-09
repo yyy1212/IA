@@ -63,7 +63,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Estão aqui algumas dicas para casa, escolha uma!"
+        enunciado: "Estão aqui algumas dicas para casa, escolha uma!",
         alternativas: [
             {
                 texto: "Uma boa dica e de não jogar óleos lubrificantes ou de cozinha na sua rede de esgoto.",
