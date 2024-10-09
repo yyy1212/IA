@@ -15,6 +15,7 @@ let perguntaAtual;
 let historiaFinal = "";
 
 botaoIniciar.addEventListener('click', iniciaJogo);
+
 function iniciaJogo() {
     atual = 0;
     historiaFinal = "";
@@ -24,6 +25,7 @@ function iniciaJogo() {
     caixaResultado.classList.remove("mostrar");
     mostraPergunta();
 }
+
 function mostraPergunta() {
     if (atual >= perguntas.length) {
         mostraResultado();
@@ -53,7 +55,6 @@ function respostaSelecionada(opcaoSelecionada) {
         mostraResultado();
         return;
     }
-    atual++;
     mostraPergunta();
 }
 
@@ -79,5 +80,3 @@ function substituiNome() {
 }
 
 substituiNome();
-substituiNome();
-mostraPergunta();
